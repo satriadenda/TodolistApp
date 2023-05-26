@@ -1,0 +1,66 @@
+/* App.css */
+
+.container {
+    margin: 0;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgba(252, 253, 255, 0.911);
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #e79324;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+
+/* Responsive Styles */
+
+@media (max-width: 480px) {
+  form {
+    flex-direction: column;
+  }
+
+  input[type="text"] {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  ul {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+}
+
